@@ -1,1 +1,1 @@
-
+For molecule optimization, We paired our SMILES with most similar smiles from dataset since modifying SMILES and calculating HOMO/LUMO properties is computationally intensive. We generated prompts based on ranges of HOMO, LUMO values. We used most similar smiles as as one of optimized molecule as increased/decreased homo or lumo level. We finetuned Llama-2-7B-Chat model on these prompt dataset, those who ere interested in our QLoRA adapters can found in hugging face repo:SriVishnuAkepati/llama-2-7b-finetuned-v2. 
